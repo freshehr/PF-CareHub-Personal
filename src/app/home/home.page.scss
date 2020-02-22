@@ -26,6 +26,23 @@
   text-decoration: none;
 }
 
+ion-card {
+margin: auto;
+width: 250px;
+height: 175px;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+   }
+ion-content.background{
+    --background: url(../../assets/img/splash.png) no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
 ion-content ion-toolbar {
   --background: translucent;
 }
